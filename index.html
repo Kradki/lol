@@ -525,7 +525,7 @@
         const remaining = videoMain.duration - videoMain.currentTime;
 
         // Логика текстового сообщения: появляется, когда осталось от 22 до 20 секунд
-        if (remaining <= 22 && remaining > 20) {
+        if (remaining <= 28 && remaining > 20) {
           if (!state.messageVisible) {
             videoMessage.classList.add('visible');
             state.messageVisible = true;
